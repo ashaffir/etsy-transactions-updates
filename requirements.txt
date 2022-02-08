@@ -1,5 +1,6 @@
 fastapi
-requiests
+requests
 uvicorn
 pkce
 jinja2
+python-multipart --no-binary :all:
