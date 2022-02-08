@@ -13,11 +13,13 @@ source ./venv_etsy/bin/activate
 
 pip install -r requirements.txt
 
+<!-- You can ignore the dependency error during pip install -->
+
 5- Run server
 
 uvicorn api:app --reload
 
-6- Launch browser with link: http://localhost:8000/
+6- Launch browser with link: http://127.0.0.1:8000
 
 7- Make sure you are logged into Etsy (with the account relevant to the API used)
 
